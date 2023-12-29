@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="icon" href="./images/favicon.png.webp" type="png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aranoz Website</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg position-absolute w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/nav-logo.webp" alt="Image-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown p-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Shop Category</a></li>
+                            <li><a class="dropdown-item" href="#">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 2 -->
+                    <li class="nav-item dropdown p-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Tracking</a></li>
+                            <li><a class="dropdown-item" href="#">Product Checkout</a></li>
+                            <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Confirmation</a></li>
+                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 3 -->
+                    <li class="nav-item dropdown p-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Single Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-icons">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-cart-plus-fill"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Section 1 -->
+    <section class="section1">
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Carousel 1 -->
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="sec1-in">
+                            <div class="sec1-fortext">
+                                <p class="sec1-p1">Wood & Cloth Sofa</p>
+                                <p class="sec1-p2">Incididunt ut labore et dolore magna aliqua quis ipsum
+                                    suspendisse ultrices gravida. Risus commodo viverra</p>
+                                <button class="sec1-btn">BUY NOW</button>
+                            </div>
+                            <div class="sec1-forimg">
+                                <img src="./images/s1-img.webp" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel 2 -->
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="sec1-in">
+                            <div class="sec1-fortext">
+                                <p class="sec1-p1">Cloth & Wood Sofa</p>
+                                <p class="sec1-p2">Incididunt ut labore et dolore magna aliqua quis ipsum
+                                    suspendisse ultrices gravida. Risus commodo viverra</p>
+                                <button class="sec1-btn">BUY NOW</button>
+                            </div>
+                            <div class="sec1-forimg">
+                                <img src="./images/s1-img.webp" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel button -->
+                    <button class="carousel-control-prev  justify-content-start" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next justify-content-end" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2 -->
+    <section class="section2">
+        <div class="container">
+            <div class="sec2-in">
+                <p class="sec2-p1">Featured Category</p>
+                <div class="sec2-boxs">
+                    <!-- Boxs 1 -->
+                    <div class="boxs1">
+                        <div class="box1">
+                            <div class="box1-fortext">
+                                <p class="box1-p1">Premium Quality</p>
+                                <p class="box1-p2">Latest foam Sofa</p>
+                            </div>
+                            <div class="box1-forimg">
+                                <img src="./images/s2-box1-img.webp" alt="Image">
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="box2-fortext">
+                                <p class="box2-p1">Premium Quality</p>
+                                <p class="box2-p2">Latest foam Sofa</p>
+                            </div>
+                            <div class="box2-forimg">
+                                <img src="./images/s2-box2-img.webp" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Boxs 2 -->
+                    <div class="boxs2">
+                        <div class="box2">
+                            <div class="box2-fortext">
+                                <p class="box2-p1">Premium Quality</p>
+                                <p class="box2-p2">Latest foam Sofa</p>
+                            </div>
+                            <div class="box2-forimg">
+                                <img src="./images/s2-box3-img.webp" alt="Image">
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="box1-fortext">
+                                <p class="box1-p1">Premium Quality</p>
+                                <p class="box1-p2">Latest foam Sofa</p>
+                            </div>
+                            <div class="box1-forimg">
+                                <img src="./images/s2-box4-img.webp" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
