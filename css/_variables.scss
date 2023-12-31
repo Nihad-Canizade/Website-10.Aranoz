@@ -15,3 +15,14 @@
     border-radius: 5px;
     transition: all .4s ease-in-out;
 }
+
+@mixin button2{
+    color: white;
+    background-color: rgb(20, 177, 245);
+    padding: 2px 7px;
+    font-size: 14px;
+    border: none;
+    &:active{
+        background-color: rgb(20, 133, 245);
+    }
+}

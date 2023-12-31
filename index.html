@@ -72,7 +72,7 @@
             </div>
             <div class="navbar-icons">
                 <i class="bi bi-search"></i>
-                <i class="bi bi-heart"></i>
+                <a href="./favorites.html">♡</a>
                 <i class="bi bi-cart-plus-fill"></i>
             </div>
         </div>
@@ -199,87 +199,10 @@
                         <p>Previous</p>
                     </div>
                 </div>
-                <div class="sec3-boxs">
-                    <!-- Box 1 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box1-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 2 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box2-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 3 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box3-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 4 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box4-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 5 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box5-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 6 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box1-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 7 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box7-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <!-- Box 7 -->
-                    <div class="sec3-box">
-                        <img src="./images/s3-box8-img.webp" alt="Image">
-                        <p class="sec3-box-p1">Quartz Belt Watch</p>
-                        <p class="sec3-box-p2">$150.00</p>
-                        <div class="sec3-box-hover">
-                            <p class="sec3-box-p3">+ ADD TO CART</p>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
+                <div class="sec3-boxs"></div>
+                <div class="sec3-btns">
+                    <button class="add-btn"><a href="./add.html">Add</a></button>
+                    <button class="loadmore-btn">Load More</button>
                 </div>
             </div>
         </div>
@@ -302,7 +225,7 @@
                             <p class="date1">DAYS</p>
                             <p class="date2">-1556</p>
                         </div>
-                        <div class="dates">
+                        <div class="dates dates2">
                             <p class="date1">HOURS</p>
                             <p class="date2">18</p>
                         </div>
@@ -512,6 +435,12 @@
     </div>
 
 
+    <!-- To top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -522,6 +451,7 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>

@@ -1,0 +1,53 @@
+{
+  "boxs": [
+    {
+      "id": 1,
+      "image": "./images/s3-box1-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 2,
+      "image": "./images/s3-box2-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 3,
+      "image": "./images/s3-box3-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 4,
+      "image": "./images/s3-box5-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 5,
+      "image": "./images/s3-box5-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 6,
+      "image": "./images/s3-box1-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 7,
+      "image": "./images/s3-box7-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    },
+    {
+      "id": 8,
+      "image": "./images/s3-box8-img.webp",
+      "name": "Quartz Belt Watch",
+      "price": "$150.00"
+    }
+  ],
+  "favorites": []
+}
